@@ -3,7 +3,7 @@ from streamlit_folium import st_folium
 import folium
 import geopandas as gpd
 
-db_path=r'C:/Users/jshogland/John/presentation/Authoring/fy2026/BlackHills/BlackHillsData.gpkg'
+db_path='BlackHillsData.gpkg'
 lyr='sawmills'
 gdf=gpd.read_file(db_path,layer=lyr)
 
