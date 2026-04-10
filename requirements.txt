@@ -1,4 +1,6 @@
 streamlit
 streamlit-folium
+matplotlib
+mapclassify
 geopandas
 raster_tools
